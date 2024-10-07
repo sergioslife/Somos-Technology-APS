@@ -1,0 +1,80 @@
+        /* Estilos globales */
+        
+        body {
+            background-color: #F2F2F2;
+            color: #0D0D0D;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            font-family: "Roboto", sans-serif;
+            /* Evita el desplazamiento horizontal */
+        }
+        /* Sección de Trabajos */
+        
+        .trabajos-section {
+            padding: 100px 20px;
+            background-color: #F2F2F2;
+            /* Fondo blanco */
+            color: #0D0D0D;
+        }
+        
+        .trabajos-title {
+            text-align: center;
+            font-size: 3rem;
+            margin-bottom: 40px;
+        }
+        
+        .trabajos-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+        }
+        
+        .trabajo-item {
+            width: 300px;
+            text-align: center;
+            border: 3px solid #35D0F2;
+            /* Marco de color */
+            border-radius: 10px;
+            padding: 10px;
+            background-color: #F2F2F2;
+            /* Fondo de cada casilla */
+            transition: transform 0.3s ease, border-color 0.3s ease;
+        }
+        
+        .trabajo-item:hover {
+            transform: scale(1.05);
+            border-color: #1DF2F2;
+            /* Cambia el color del borde al hacer hover */
+        }
+        
+        .trabajo-img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        
+        .trabajo-titulo {
+            font-size: 1.5rem;
+        }
+        /* Enlace dentro de cada trabajo */
+        
+        .trabajo-item a {
+            text-decoration: none;
+            color: inherit;
+        }
+        /* Estilos para la sección de Inicio */
+        
+        .container {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background-color: #35D0F2;
+            color: #F2F2F2;
+            font-size: 2em;
+            text-align: left;
+        }
